@@ -16,7 +16,7 @@ except:
 path = website_url
 post = WordPressPost()
 
-post.post_status = 'publish' # to publish post without this post will goes to draft
+post.post_status = 'publish' # to publish post
 
 
 wp = Client(login.website, login.username, login.password)
